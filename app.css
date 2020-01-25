@@ -56,12 +56,12 @@ input, select, textarea {
   font-style: normal;
 }
 :root {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 @media (min-width: 400px) and (max-width: 800px) {
   :root {
-    font-size: calc( 18px + (40 - 18) * ( (100vw - 400px) / ( 800 - 400) ));
+    font-size: calc( 24px + (40 - 24) * ( (100vw - 400px) / ( 800 - 400) ));
   }
 }
 @media (min-width: 800px) {
