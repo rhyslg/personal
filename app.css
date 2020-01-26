@@ -61,29 +61,53 @@ input, select, textarea {
 
 @media (min-width: 400px) and (max-width: 800px) {
   :root {
-    font-size: calc( 24px + (64 - 24) * ( (100vw - 400px) / ( 800 - 400) ));
+    font-size: calc( 24px + (48 - 24) * ( (100vw - 400px) / ( 800 - 400) ));
   }
 }
 @media (min-width: 800px) {
   :root {
-    font-size: 64px;
+    font-size: 48px;
   }
 }
 body {
-  background-color: white;
+  background-color: #c7c7c7;
   color: black;
   font-family: "HelveticaNeue";
   letter-spacing: -0.02em;
   line-height: 1.15;
-  padding: 16px;
+  padding: 32px;
+  max-width: 1120px;
 }
 
 div.bcard, div.bio {
-  padding-bottom: 16px;
+  padding-bottom: 32px;
 }
 
 p.bio {
-  margin-bottom: 16px;
+  margin-bottom: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 16px;
+  }
+
+  div.bcard, div.bio {
+    padding-bottom: 16px;
+  }
+
+  p.bio {
+    margin-bottom: 16px;
+  }
+}
+a {
+  color: #2f00ff;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ebebeb;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=app.css.map */
