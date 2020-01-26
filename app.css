@@ -61,29 +61,29 @@ input, select, textarea {
 
 @media (min-width: 400px) and (max-width: 800px) {
   :root {
-    font-size: calc( 24px + (40 - 24) * ( (100vw - 400px) / ( 800 - 400) ));
+    font-size: calc( 24px + (64 - 24) * ( (100vw - 400px) / ( 800 - 400) ));
   }
 }
 @media (min-width: 800px) {
   :root {
-    font-size: 40px;
+    font-size: 64px;
   }
 }
 body {
-  background-color: #008cff;
+  background-color: white;
   color: black;
   font-family: "HelveticaNeue";
   letter-spacing: -0.02em;
+  line-height: 1.15;
   padding: 16px;
-  line-height: 1.1;
 }
 
-li {
-  list-style: none;
-}
-
-section p {
+div.bcard, div.bio {
   padding-bottom: 16px;
+}
+
+p.bio {
+  margin-bottom: 16px;
 }
 
 /*# sourceMappingURL=app.css.map */
